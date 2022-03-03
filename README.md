@@ -16,6 +16,10 @@ Create `.env` file on root with Razorpay tokens. Checkout [How to Create Razorpa
 RAZORPAY_SECRET_KEY=<Your-razorpay-secret-key>
 RAZORPAY_KEY_ID=<Your-razorpay-key-id>
 ```
+Set the same key id in `index.html` file.
+```js
+const RAZORPAY_KEY_ID = ""
+```
 - **Start Server**
 ```sh
 npm start
